@@ -2,12 +2,12 @@ import random
 
 def guess_number():
   #A simple number guessing game with manual input handling and a 3-attempt limit
-    number_to_guess = random.randint(1, 100)  # Random number between 1 and 100
+    number_to_guess = random.randint(1, 10)  # Random number between 1 and 100
     attempts = 0
     max_attempts = 3
 
     print("🎯 Welcome to the Number Guessing Game!")
-    print("Try to guess the number between 1 and 100. You have 3 attempts!")
+    print("Try to guess the number between 1 and 10. You have 3 attempts!")
 
     while attempts < max_attempts:
         try:
